@@ -1,0 +1,27 @@
+Welcome to omegaphora
+===================
+
+
+Getting Started
+---------------
+
+To get started with omegaphora, you'll need to get familiar with
+[Git and Repo](http://source.android.com/download/using-repo).
+
+Please take note that we have two main line branches depending on
+which hardware base your phone is working.
+
+If you have a qcom powered device which needs CodeAuroraForum (CAF)
+trees please us the lp5.1-caf branch which pulls for the effected packages
+the correct caf version for you.
+
+To initialize your local repository using the default omegaphora trees, use this command:
+
+
+	repo init -u git://github.com/omegaphora/manifest.git -b lp5.1
+
+
+
+Then sync up with this command:
+
+	repo sync
